@@ -46,3 +46,23 @@ console.log(typeof number3);
 let num4 = 40;
 let num5 = String(num4);
 console.log(typeof num5);
+let num6 = Boolean(num4);
+console.log(typeof num6);
+let nbr = null;
+let nbr1 = String(nbr);
+console.log(typeof nbr1);
+let nbr2 = Boolean(nbr);
+console.log(typeof nbr2);
+let nbr3 = Number(nbr);
+console.log(typeof nbr3);
+let nbr4 = undefined;
+let nbr5 = String(nbr4);
+console.log(typeof nbr5);
+// why we need conversion in javascript? and wher we can use it?
+// so we need conversion in javascript to convert one data type to another data type
+// we can use conversion in the following ways
+// 1. to convert a string data type into a number data type
+// here comes a question that why we need to convert a string data type to a number data type why we dont use string data type directly?
+// so the answer is we need to convert a string data type into a number data type because we can not perform mathematical operations on string data type.
+// if we want to perform mathematical operations then why we dont use number data type directly?
+// so the answer is we need to convert a string data type into a number data type because we can not get the value of input field in number data type.
