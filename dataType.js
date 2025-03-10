@@ -56,3 +56,41 @@ let user3 = {
   name: "ali",
   [id]: 123456,
 };
+
+// summary of javascript data types
+// there are 2 main types of data types in javascript
+// 1. primitive data types
+// 2. non-primitive data types
+// now let see them in deetial
+// 1.primitive data types
+// primitive data types are immutable data types that can not be changed
+// these are call by value data types
+// there are 7 types of primitive data types in javascript
+// 1. string
+// 2. number
+// 3. boolean
+// 4. null
+// 5. undefined
+// 6. symbol
+// 7. bigint
+// 2. non-primitive data type or reference data type
+// non-primitive data type are mutable data types that can be changed
+// there are 3 types of non-primitive data types in java script
+// 1. object
+// 2.array
+// 3.function
+
+// when i use typeof operation in javascript then it will return the data type of a variable like this
+// 1.undefined typeof undefined
+// 2.null typeof object
+// 3.boolean typeof boolean
+// 4.number typeof number
+// 5.string typeof string
+// 6. symbol typeof symbol
+// 7. bigint typeof bigint
+// 8. object typeof object
+// 9. function type of function
+// 10. array typeof object
+// 11. data type of a variable
+
+// javascript is a dynimic language so we can change the data type of a variable
