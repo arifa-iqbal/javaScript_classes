@@ -22,3 +22,16 @@ let userFirstName = "jhon";
 let userLastName = "deo";
 let userFullName = userFirstName.concat(" ", userLastName);
 console.log(userFullName);
+// this way is also not recommended because it is also not efficient
+// 3. using template literals
+let studentFirstName = "jhon";
+let studentLastName = "doe";
+let studentFullName = `${studentFirstName} ${studentLastName}`;
+console.log(studentFullName);
+// so this way is recommended because it is efficient and easy to use and understand
+// sometime in interview you can ask about string interpolation
+// interview question
+// what is string interpolation?
+// string interpolation is a process of evaluating string literals containing one or more placeholders
+// which are replaced with values
+// so this is all about string concatenation in js
