@@ -28,6 +28,8 @@
 // it is used to store the data in a random order
 // it is used to store the data in a non-sequential order
 // it is used to store the data in a last in first out order
+// it returns a reference to the data in the memory
+
 // now let see the examples
 // let user = {
 // name: "arifa",
