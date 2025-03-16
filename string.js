@@ -103,3 +103,17 @@ let para = "i am a developer";
 let slicedText = para.slice(5, 13);
 console.log(slicedText);
 // this method is used to slice the string from specific index to specific index
+// we can also use trim() method and replace() method
+// now what is trim() method?
+// trim() method is used to remove the white space from the start and end od the string
+// for example
+let text7 = "    i am a developer   ";
+let trimText = text7.trim();
+console.log(trimText);
+// now what is replace() method?
+// replace() method is used to replace the specific word with another word
+let text8 = "i am a developer";
+console.log(text8);
+
+let replaceText = text8.replace("developer", "designer");
+console.log(replaceText);
