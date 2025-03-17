@@ -117,3 +117,42 @@ console.log(text8);
 
 let replaceText = text8.replace("developer", "designer");
 console.log(replaceText);
+// let jump to some more string methods
+// 11. split()
+let text9 = "i am a developer";
+let splittedText = text9.split("");
+console.log(splittedText);
+// this method is used to split the string into array
+// 12. repeat()
+let text10 = "hello  ";
+let repeatedText = text10.repeat(120);
+console.log(repeatedText);
+//  this method is used to repeat the string multiple time according to thr given number
+// 13. substring()
+let text11 = "i am a";
+let substringText = text11.substring(2, 5);
+console.log(substringText);
+//  this method is used to extract the characters from the string
+// 14. substr()
+let text12 = "i am so happy";
+let substrText = text12.substr(5, 3);
+console.log(substrText);
+// why we use 2 values in substr() method?
+// the first value is used to specify the starting position  and the second value is used to specify the length of the extracted part
+// 15. localeCompare()
+let text13 = "i am a developer";
+let text14 = "i am a designer";
+let compareText = text13.localeCompare(text14);
+console.log(compareText);
+// this method is used to compare the string and it returns value in number
+// 16. match()
+let text15 = "i am a developer";
+let matchedText = text15.match("developer");
+console.log(matchedText);
+// this method is used to find out the specific word in a string
+// 17. search()
+let text16 = "i am a developer";
+let searchedText = text16.search("developer");
+console.log(searchedText);
+// this method is used to find out the specific word in a string and it returns the index of the word
+//
