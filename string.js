@@ -155,4 +155,13 @@ let text16 = "i am a developer";
 let searchedText = text16.search("developer");
 console.log(searchedText);
 // this method is used to find out the specific word in a string and it returns the index of the word
-//
+// 18. tostring()
+let nbr = 123;
+let nbrtoString = nbr.toString();
+console.log(nbrtoString);
+let isloggedin = true;
+let isloggedinToString = isloggedin.toString();
+console.log(isloggedinToString);
+
+// this method is used to convert any number or data type into a string
+// so this is all about string in javascript
