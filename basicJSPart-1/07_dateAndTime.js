@@ -4,6 +4,10 @@
 // here we can create a new Date object by using the Date constructor:
 let now = new Date();
 console.log(now);
+// in this method we can defind an object let see how
+now.toLocaleString("default", {
+  // for geting formates press ctrl+space
+});
 
 // getting date and time components
 // we can retrieve various components of a date using methods if the Date object:
@@ -23,3 +27,6 @@ console.log(now.getSeconds());
 console.log(now.getMilliseconds());
 // Hours (0-23)
 console.log(now.getHours());
+
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
