@@ -16,3 +16,18 @@ console.log(arr);
 // this is arry with specified length but in result it shows the empty arry with length 5.its just for learn perpose
 
 // let further learn about array methods in javascript
+// javascript array come with many built-in methods to manipulate and interact with the elements:
+// let explan and practic it
+//push method Appends new elements to the end of an array, and returns the new length of the array. push(): Adds one or more elements to the end of an array.
+let arrMethod = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arrMethod.push(10);
+// console.log(arrMethod);
+// pop(): Removes the last element from an array.
+// arrMethod.pop();
+// console.log(arrMethod);
+// shift(): Removes the first element from an array.
+// arrMethod.shift();
+// console.log(arrMethod);
+// unshift(): Adds one or more elements to the beginning of an array.
+arrMethod.unshift(2);
+console.log(arrMethod);
