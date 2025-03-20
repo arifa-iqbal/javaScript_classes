@@ -20,5 +20,10 @@ const drinks = ["coke", "mintwater"];
 // if we have array inside that array we have another like array in array so how we can marge that in to one array let see this
 const arrayInArray = [1, 2, 3, [4, 5, 6], 7, 8, [9, 10, [11, 12]]];
 // in this we can use flat
-const finalArray = arrayInArray.flat(Infinity);
-console.log(finalArray);
+// const finalArray = arrayInArray.flat(Infinity);
+// console.log(finalArray);
+// what if we want to convert a string in to array what we can do at that time
+// isArray Determines whether the passed value is an array.
+console.log(Array.isArray("arifa"));
+// array.from() Creates a new, shallow-copied Array instance from an array-like or iterable object.
+console.log(Array.from("arifa"));
