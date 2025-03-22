@@ -4,9 +4,11 @@
 // we can create an object using object literal syntax oe the object constructor.
 // let create an object
 // this object is create through object litetal
+const mySmb = Symbol("key");
 let user = {
   name: "Anila",
   "full name": "anila aman",
+  [mySmb]: "mykey1",
   age: 26,
   userid: 123,
   department: "accounts",
@@ -33,7 +35,25 @@ student.gread = 12;
 // Bracket Notation
 // bracket notation allows use to access object properties using a string key. this is useful when the property name is dynamic or not a valid identifier.
 // it is use for this type of values  in object which we cant access through dot notation   "full name": "anila aman", so let see
-console.log(user["full name"]);
+// console.log(user["full name"]);
 
-console.log(user["name"]);
+// console.log(user["name"]);
 // okay bracket notation is also use when we use symbols in out object let see how to use symbles in object.
+// after creating a symbol now let access its value
+// console.log(user[mySmb]);
+//  now lets talk about how we can change the value of key of an object
+// for example we can change the department of a user
+// user.department = "sales";
+// console.log(user.department);
+// we can also freez the object, wehen we dont want any changings in our object so we can use freez
+// Object.freeze(user);
+// now let see can we change the data
+// user.department = "account";
+// console.log(user);
+// we can also use functions in out objects
+//  let see how
+user.greeting = function () {
+  console.log("hello anila");
+};
+console.log(user.greeting());
+console.log(user);
