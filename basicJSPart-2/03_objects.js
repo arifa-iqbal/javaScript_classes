@@ -57,3 +57,9 @@ user.greeting = function () {
 };
 console.log(user.greeting());
 console.log(user);
+// string interpolation in javascript
+// string interpolation is a method of embedding expressions within string literals, alloweing you to create strings that include dynamic content. let see how its work
+user.greetingTwo = function () {
+  console.log(`hello our user, ${this.name}`);
+};
+console.log(user.greetingTwo());
