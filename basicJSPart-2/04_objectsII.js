@@ -9,4 +9,15 @@ const remote = {
 };
 const remote1 = remote;
 const remote2 = remote;
-console.log(remote1 === remote2);
+// console.log(remote1 === remote2);
+// nested objects
+const reglrUser = {
+  email: "someone@gmail.com",
+  fullname: {
+    userfullname: {
+      firstname: "anila",
+      lastname: "aman",
+    },
+  },
+};
+console.log(reglrUser.fullname.userfullname.firstname);
