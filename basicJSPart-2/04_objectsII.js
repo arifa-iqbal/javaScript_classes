@@ -40,5 +40,18 @@ const nbrs2 = {
 // const nbrs3 = Object.assign({}, nbrs, nbrs2);
 // console.log(nbrs3);
 // here we are mostly using  spread operator
-const nbrs3 = { ...nbrs, ...nbrs2 };
-console.log(nbrs3);
+// const nbrs3 = { ...nbrs, ...nbrs2 };
+// console.log(nbrs3);
+// de-structure of an object
+// Destructuring an object in JavaScript means extracting values from an object and assigning them to variables in a simpler way. It allows you to access object properties without needing to reference the object multiple times.
+// let create an object and see how it works
+const student = {
+  name: "kamal",
+  age: 20,
+  email: "kamal@gmail.com",
+};
+// destructuring
+const { name, age, email } = student;
+console.log(name);
+console.log(age);
+console.log(email);
