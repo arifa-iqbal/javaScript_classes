@@ -36,4 +36,9 @@ const nbrs2 = {
 // lets combine them
 // const nbrs3 = { nbrs, nbrs2 };
 // console.log(nbrs3);
-// let see another method
+// let see another method assign method
+// const nbrs3 = Object.assign({}, nbrs, nbrs2);
+// console.log(nbrs3);
+// here we are mostly using  spread operator
+const nbrs3 = { ...nbrs, ...nbrs2 };
+console.log(nbrs3);
