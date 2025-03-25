@@ -18,4 +18,8 @@ console.log(" the result is:", result);
 // today we are going to lear more about functions
 // let start with restoperator in javascript
 // the rest operator (...) allows us to represent an indefinite number of arguments as an array. it is usde in a function parameters to geather all remaining arguments into an array.
-// the rest operater is represented by three dots (...)
+// the rest operater is represented by three dots (...) let see how it works
+function count(...numbers) {
+  return numbers;
+}
+console.log(count(400, 400, 200, 20, 10, 80));
