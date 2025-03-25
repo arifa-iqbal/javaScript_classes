@@ -42,4 +42,12 @@ user({
   name: "faizan",
   id: 30,
 });
-//
+//we can use arrays in function
+// const myArray = [100, 20, 30, 60, 80];
+
+function getSecondValue(myValue) {
+  return myValue[1];
+}
+// console.log(getSecondValue(myArray)); we can also do this same like
+
+console.log(getSecondValue([100, 20, 30, 60, 80]));
