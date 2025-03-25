@@ -23,3 +23,14 @@ function count(...numbers) {
   return numbers;
 }
 console.log(count(400, 400, 200, 20, 10, 80));
+// some time we have this type of function wher we become so confused
+function myValues(vlu1, vlu2, ...vlu3) {
+  return vlu3;
+}
+
+console.log(myValues(500, 200, 400, 300, 100));
+// so what doyou think what should be the answer of this? let see the answer is [400,300,100] but were are the first two perameters ?  the first two values are  captured by vlu1 and vlu2
+// the argument we passed: 500, 200, 400, 300, 100
+// captured by vlu1: 500
+// captured by vlu2: 200
+// capture by vlu3: [400, 300,100]
