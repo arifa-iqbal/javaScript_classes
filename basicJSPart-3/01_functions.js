@@ -34,3 +34,12 @@ console.log(myValues(500, 200, 400, 300, 100));
 // captured by vlu1: 500
 // captured by vlu2: 200
 // capture by vlu3: [400, 300,100]
+// let see how to use objects in a function
+function user(firstUser) {
+  console.log(`userName is ${firstUser.name} and the id is ${firstUser.id}`);
+}
+user({
+  name: "faizan",
+  id: 30,
+});
+//
