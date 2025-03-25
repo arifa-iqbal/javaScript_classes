@@ -15,3 +15,7 @@ function addNumbers(nbr1, nbr2) {
 const result = addNumbers(20, 10);
 console.log(" the result is:", result);
 // this is the way how we can add nbrs in functions
+// today we are going to lear more about functions
+// let start with restoperator in javascript
+// the rest operator (...) allows us to represent an indefinite number of arguments as an array. it is usde in a function parameters to geather all remaining arguments into an array.
+// the rest operater is represented by three dots (...)
