@@ -7,3 +7,11 @@ function greet() {
 }
 greet();
 // function greet() {console.log("hello world");} this pice of code can not work util we call the function to execute the function it is importent to call the function and we can call function  greet(); like this
+// lets learn more about function let see how we can add numbers in a function
+function addNumbers(nbr1, nbr2) {
+  let result = nbr1 + nbr2;
+  return result;
+}
+const result = addNumbers(20, 10);
+console.log(" the result is:", result);
+// this is the way how we can add nbrs in functions
