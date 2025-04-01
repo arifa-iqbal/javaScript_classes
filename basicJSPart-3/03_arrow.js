@@ -28,3 +28,9 @@ function data() {
 
 data();
 // here we find undefind because we cant use this methed in functions
+// let see what is arrow function
+// the syntext of arrow function is
+const addNum = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(addNum(20, 60));
