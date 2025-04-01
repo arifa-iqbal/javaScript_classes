@@ -38,8 +38,9 @@ data();
 // in javascript implicit return refers to the behaviour of arrow function where the return keyword can be omitted if the function body consists of a single expression.
 // use this
 
-// const addNum = (num1, num2) => num1 + num2; // or
+//  const addNum = (num1, num2) => num1 + num2;
+// what if i suppose to pass an object here
 
-// this
-const addNum = (num1, num2) => num1 + num2;
+const addNum = (num1, num2) => ({ userName: "arifa" });
+
 console.log(addNum(20, 60));
