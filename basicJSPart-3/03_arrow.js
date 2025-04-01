@@ -18,4 +18,13 @@ user.name = "iqbal";
 user.welcommessage();
 // and the ans is the current value means this returns the current value "iqbal"
 // what if use "this" out here
-console.log(this);
+// console.log(this);
+// now let see can w use "this " in normal and in arrow function
+// normall function
+function data() {
+  let user1 = "arifa";
+  console.log(this.user1);
+}
+
+data();
+// here we find undefind because we cant use this methed in functions
