@@ -49,7 +49,7 @@ if (age1 < 18) {
 // switch (expression){ case value1: the code to be executed if the expression is equal to value1 break; case value2: the code to be executed if the expression is equal to value2 break; default: the code to be executed if the exepression is not equal to any of the cases}
 // let see an example
 // let say we have a variable called day and we want to check what day is it and we will print a message to the console
-let day = 5;
+let day = 7;
 switch (day) {
   case 1:
     console.log("monday");
@@ -57,4 +57,21 @@ switch (day) {
   case 2:
     console.log("tuesday");
     break;
+  case 3:
+    console.log("wednesday");
+    break;
+  case 4:
+    console.log("thusday");
+    break;
+  case 5:
+    console.log("friday");
+    break;
+  case 6:
+    console.log("saturday");
+    break;
+  case 7:
+    console.log("sunday");
+    break;
+  default:
+    console.log("invalid day");
 }
