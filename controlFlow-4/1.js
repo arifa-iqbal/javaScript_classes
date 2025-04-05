@@ -44,3 +44,17 @@ if (age1 < 18) {
 } else {
   console.log("you are 18 years old");
 }
+// the forth one is switch statement the switech statement is used to execute a block of code based on different cases
+// the syntex of switch statement is as follow
+// switch (expression){ case value1: the code to be executed if the expression is equal to value1 break; case value2: the code to be executed if the expression is equal to value2 break; default: the code to be executed if the exepression is not equal to any of the cases}
+// let see an example
+// let say we have a variable called day and we want to check what day is it and we will print a message to the console
+let day = 5;
+switch (day) {
+  case 1:
+    console.log("monday");
+    break;
+  case 2:
+    console.log("tuesday");
+    break;
+}
