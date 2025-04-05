@@ -30,3 +30,10 @@ if (age > 18) {
 } else {
   console.log("you are not eligible to vote");
 }
+// the third one is else if statement the else if statement is used to check multiple conditions
+// the syntex of else if statement is as follow
+// if (condotion) {the code to be executed if the condition is true } else if (condition){ the code to be executed if the condition is true } else {the code to be executed if the condition is false}
+// let see an example
+// let say we have a variable called age and we want to check if the age is greater than 18 then we will print a message to the console if the age is less than 18 then we will print a message to the console if the age is equal to 18 then we will print a message to the console 
+let age1 = 18;
+if 
