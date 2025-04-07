@@ -84,3 +84,9 @@ let age2 = 12;
 let message =
   age2 > 18 ? "you are eligible to vote" : "you are not eligible to vote";
 console.log(message);
+// so this is how the control flow works in javascript and how we can use it in our code
+// interview question
+// whst is the difference between if and switch statement?
+// the if statement is used to execute a block of code if the condition is true and the switch statement is used to execute a block of code based on different cases
+// what is the difference between if and else satement?
+// the if statement is used to execute a block of code if the condition is true and the else statement is used to execute a block of code if the condition is false
