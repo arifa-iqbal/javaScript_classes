@@ -75,3 +75,12 @@ switch (day) {
   default:
     console.log("invalid day");
 }
+// the last one is ternary operator the ternary operator is used to execute  a block of code based on a condition
+// the syntex of temary operator is as follow
+// condition ? the code to be executed if the condition is true: the code to be executed if the condition is false
+// let see an example
+// let say we have a variable called age and we want to check if the age is greater than 18 then we will print a message to the console if the age is less than 18 then we will print a message to the console
+let age2 = 12;
+let message =
+  age2 > 18 ? "you are eligible to vote" : "you are not eligible to vote";
+console.log(message);
