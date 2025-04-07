@@ -90,3 +90,7 @@ console.log(message);
 // the if statement is used to execute a block of code if the condition is true and the switch statement is used to execute a block of code based on different cases
 // what is the difference between if and else satement?
 // the if statement is used to execute a block of code if the condition is true and the else statement is used to execute a block of code if the condition is false
+// Nullish coalescing operator (??) is used to return the right-hand operand when the left-hand operand is null or undefined. It is similar to the logical OR operator (||) but it only checks for null or undefined values. The nullish coalescing operator id useful when we want to provide a default value for a variable that may be null or undefined. For example, if we have a variable called name and we want to provide a default value for it if it is null or undefined, we can use the nullish coalescing operator as follows:
+let name = null;
+let defaultName = name ?? "manha tariq";
+console.log(defaultName);
