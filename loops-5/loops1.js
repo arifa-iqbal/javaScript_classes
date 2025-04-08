@@ -40,6 +40,28 @@ const students = ["ahmed", "ali", "sara", "mohammed"];
 for (let i = 0; i < students.length; i++) {
   const student = students[i];
 
-  console.log(student);
+  //   console.log(student);
   //    console.log(`student name ${i + 1} is ${students[i]}`);
+}
+// let see what id break and continue statement through the loop understand with example
+// by the name we can understand that break is used to break the loop and continue is used to continue the loop
+// let see example
+//  let creat an array of name of famous books
+const books = [
+  "the alchemist",
+  "the power of now",
+  "the power of positive thnking",
+  "the art of been alone",
+  "the art of war",
+  "the art of happiness",
+];
+for (let i = 0; i < books.length; i++) {
+  const book = books[i];
+  // if the book name is the art of been alone then break the loop
+  if (book == "the art of war") {
+    // break; // break will brake the loop and exit the loop
+    continue; // continue will skip the current iteration and continue to the next iteration
+  }
+
+  console.log(book);
 }
