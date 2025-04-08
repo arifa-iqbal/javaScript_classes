@@ -4,3 +4,23 @@
 // 1. for loop
 // 2. while loop
 // 3. do while loop
+//  let start with for loop
+// for loop is used to repead a block of code a specific number of times
+// for loop has 3 parts
+// 1. initialization: this is where we initialize the loop counter
+// 2. condition: this is where we check if the loop should continue or not
+// 3. increment: this is where we increment the loop counter
+// for loop syntex
+// for(initialization; condition; increment){code to be executed}
+// for example we want to print number from 1 to 10
+// we will use for loop to do that
+// we will use console to print the numbers
+// let see the code
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+// what if i print a message instead number
+// let see
+for (let i = 1; i <= 10; i++) {
+  console.log("wellcome to javascript loops");
+}
