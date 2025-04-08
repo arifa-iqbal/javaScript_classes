@@ -22,14 +22,24 @@ for (let i = 1; i <= 10; i++) {
 // what if i print a message instead number
 // let see
 for (let i = 1; i <= 10; i++) {
-  console.log("wellcome to javascript loops");
+  //   console.log("wellcome to javascript loops");
 }
 // let use loop in loop
 for (let i = 0; i <= 10; i++) {
-  console.log(`outer loop ${i}`);
+  //
   for (let k = 0; k <= 10; k++) {
     // console.log(`inner loop ${k} and outer loop ${i}`);
     // let creat a table using loop
-    console.log(`${i} * ${k} = ${i * k}`);
+    // console.log(`${i} * ${k} = ${i * k}`);
   }
+}
+// let see how for loop work with array
+// let creat an array of students
+const students = ["ahmed", "ali", "sara", "mohammed"];
+// let print the loop
+for (let i = 0; i < students.length; i++) {
+  const student = students[i];
+
+  console.log(student);
+  //    console.log(`student name ${i + 1} is ${students[i]}`);
 }
