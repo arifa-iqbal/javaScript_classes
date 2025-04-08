@@ -24,3 +24,12 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 1; i <= 10; i++) {
   console.log("wellcome to javascript loops");
 }
+// let use loop in loop
+for (let i = 0; i <= 10; i++) {
+  console.log(`outer loop ${i}`);
+  for (let k = 0; k <= 10; k++) {
+    // console.log(`inner loop ${k} and outer loop ${i}`);
+    // let creat a table using loop
+    console.log(`${i} * ${k} = ${i * k}`);
+  }
+}
