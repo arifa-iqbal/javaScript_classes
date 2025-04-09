@@ -10,8 +10,16 @@
 //   console.log("i is less than 5", i);
 //   i++;
 // }
-let i = 0;
-while (i <= 20) {
-  console.log(`the value of i is ${i}`);
-  i++;
+// let i = 0;
+// while (i <= 20) {
+//   console.log(`the value of i is ${i}`);
+//   i++;
+// }
+// let see while loop with array
+// we ha an array of brands and we want to print the brands in the array
+let brands = ["apple", "samsung", "nokia", "huawei", "oppo", "vivo", "realme"];
+let brnd = 0;
+while (brnd < brands.length) {
+  console.log(brands[brnd]);
+  brnd++;
 }
