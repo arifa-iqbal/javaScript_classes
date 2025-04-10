@@ -34,3 +34,10 @@ do {
   i++;
 } while (i < 5);
 // let see do while loop with array
+// we have an array of brands and we want to print the brand in the array
+let brands = ["apple", "samsung", "nokia", "oppo", "vivo"];
+let brnd = 0;
+do {
+  console.log(brands[brnd]);
+  brnd++;
+} while (brands.length > brnd);
