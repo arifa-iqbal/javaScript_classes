@@ -24,5 +24,14 @@ map.set(5, "five");
 // console.log(map);
 // if we want to use loop over map we can use for of loop
 for (const [key, value] of map) {
-  console.log(`key is ${key} and value is ${value}`);
+  //   console.log(`key is ${key} and value is ${value}`);
 }
+// can we use for of loop over objects?
+// let obj = {
+//   name: "ahmed",
+//   age: 25,
+//   country: "pakistan",
+// };
+// for (cinst[(key, value)] of obj) {
+//   console.log(`key is ${kay} and value is ${value}`);
+// } so we cant use for of loop over objects
