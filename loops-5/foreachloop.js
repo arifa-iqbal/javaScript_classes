@@ -11,7 +11,25 @@
 const numbers = [1, 2, 3, 4, 5];
 // use foeEach loop to iterate over the array and print each element
 numbers.forEach(function (number, index, array) {
-  console.log(
-    `the current number is ${number} at index ${index} of array ${array}`
-  );
+  //   console.log(
+  //     `the current number is ${number} at index ${index} of array ${array}`
+  //   );
+});
+// let see how to use forEach loop in object multiple arrays within an object
+const myCode = [
+  { languageName: "javascript", languageCode: "js" },
+  {
+    languageName: "python",
+    languageCode: "py",
+  },
+  { languageName: "java", languageCode: "java" },
+  {
+    languageName: "c++",
+    languageCode: "cpp",
+  },
+];
+// use forEach loop to iterate over the array and print each element
+myCode.forEach((item) => {
+  //   console.log(item.languageCode);
+  console.log(item.languageName);
 });
