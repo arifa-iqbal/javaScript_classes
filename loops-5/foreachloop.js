@@ -31,5 +31,12 @@ const myCode = [
 // use forEach loop to iterate over the array and print each element
 myCode.forEach((item) => {
   //   console.log(item.languageCode);
-  console.log(item.languageName);
+  //   console.log(item.languageName);
 });
+// what if i store the forEach loop in a variable and use it let see
+const myCode1 = ["javascript", "pythan", "java", "c++"];
+const value = myCode1.forEach((item) => {
+  //   console.log(item); //   comment this line to see the out of the code
+});
+console.log(value); // let see what is the output of this code
+// so the output is undefined because forEach loop does not return anything. it is use to iterate over an array and perform some opration on each element as the array.
