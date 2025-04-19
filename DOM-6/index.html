@@ -21,4 +21,16 @@
       <div class="day">saturday</div>
     </div>
   </body>
+  <script>
+    const parent = document.querySelector(".parent");
+    const days = document.querySelectorAll(".day");
+    console.log(parent.children);
+    // there are 6 children in the parent div
+    // what if we want to get the first child of the parent div
+    console.log(parent.children[0].innerHTML);
+    // let find all the children by using loop
+    for (let i = 0; i < parent.children.length; i++) {
+      console.log(parent.children[i].innerHTML);
+    }
+  </script>
 </html>
