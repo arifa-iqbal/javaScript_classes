@@ -7,6 +7,21 @@
   </head>
   <body style="background-color: black; color: white"></body>
   <script>
-    // how to create an element direct in javascript without using html
+    // how to create an element direct in javascript without using html let see
+    const div = document.createElement("div");
+    console.log(div);
+    div.className = "newDiv";
+    div.id = "newId";
+    div.setAttribute("title", "newDivTitle");
+    div.style.backgroundColor = "yellow";
+    div.style.color = "black";
+    div.style.padding = "10px";
+    // div.innerHTML = "this is a new div created in javascript";
+    const addText = document.createTextNode(
+      "this is a new div created in javascript"
+    );
+    div.appendChild(addText);
+    // how to show this new creadted div in the body of the html
+    document.body.appendChild(div);
   </script>
 </html>
