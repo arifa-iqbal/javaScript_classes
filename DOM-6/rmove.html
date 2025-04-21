@@ -19,5 +19,13 @@
       document.querySelector(".languages").appendChild(li);
     }
     addLanguage("python");
+    // this method is not recommended because it will add the new element at the end of the list. the whole tree is traversed to add a new element.
+    // let create with optimized way to add the new element in the list
+    function addOptiLanguage(language) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(language));
+      document.querySelector(".languages").appendChild(li);
+    }
+    addOptiLanguage("java");
   </script>
 </html>
