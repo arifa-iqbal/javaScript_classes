@@ -33,5 +33,10 @@
     const newLi = document.createElement("li");
     newLi.textContent = "mojo";
     list.replaceWith(newLi);
+    // edit the first li element in the list which is javascript
+    const firstLi = document.querySelector("li:first-child");
+    const newFirstLi = document.createElement("li");
+    newFirstLi.textContent = "typescript";
+    firstLi.replaceWith(newFirstLi);
   </script>
 </html>
