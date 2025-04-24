@@ -27,5 +27,11 @@
       document.querySelector(".languages").appendChild(li);
     }
     addOptiLanguage("java");
+
+    // edit the elements in the list
+    const list = document.querySelector("li:nth-child(2)");
+    const newLi = document.createElement("li");
+    newLi.textContent = "mojo";
+    list.replaceWith(newLi);
   </script>
 </html>
