@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  text-align: center;
+  padding-top: 60px;
+}
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+label {
+  font-size: 20px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+}
