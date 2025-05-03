@@ -50,7 +50,12 @@ function checkGuess(guess) {
   }
 }
 // function to display the guess
-function displayGuess(guess) {}
+function displayGuess(guess) {
+  userInput.value = "";
+  guessSlot.innerHTML += `${guess}`;
+  numberGuess++;
+  remaining.innerHTML = `${10 - numberGuess}`;
+}
 // function to display message
 function displayMessage(message) {}
 // function for the end of the game
