@@ -26,6 +26,13 @@ function validateGuess(guess) {
     alert("please enter a number greater than 1");
   } else if (guess > 100) {
     alert("please enter a number less than 100");
+  } else {
+    preGuess.push(guess);
+    if (numberGuess === 11) {
+      displayGuess(guess);
+      displayMessage(`game over. random number was ${randomNumber}`);
+      endGame();
+    }
   }
 }
 // function to check the guess
