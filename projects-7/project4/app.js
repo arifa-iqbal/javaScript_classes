@@ -32,11 +32,23 @@ function validateGuess(guess) {
       displayGuess(guess);
       displayMessage(`game over. random number was ${randomNumber}`);
       endGame();
+    } else {
+      displayGuess(guess);
+      checkGuess(guess);
     }
   }
 }
 // function to check the guess
-function checkGuess(guess) {}
+function checkGuess(guess) {
+  if (guess === randomNumber) {
+    displayMessage(`you guessed it right wow 🎉`);
+    endGame();
+  } else if (guess < randomNumber) {
+    displayMessage(`number is toooo small please try again`);
+  } else if (guess > randomNumber) {
+    displayMessage(`number is greater please try again`);
+  }
+}
 // function to display the guess
 function displayGuess(guess) {}
 // function to display message
