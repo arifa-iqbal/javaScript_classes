@@ -1,8 +1,9 @@
 const sumitBtn = document.querySelector("#submt");
-const userInput = document.querySelector("#guessField");
-const guessSlot = document.querySelector("#guesses");
-const remaining = document.querySelector("#lastResult");
-const lowOrHi = document.querySelector("#lowOrHi");
+const userInput = document.querySelector(".guessField");
+const guessSlot = document.querySelector(".guesses");
+const remaining = document.querySelector(".lastResult");
+const lowOrHi = document.querySelector(".lowOrHi");
+const startOver = document.querySelector(".resultpara");
 
 const randomNumber = parseInt(Math.random() * 100 + 1);
 const p = document.createElement("p");
@@ -52,13 +53,22 @@ function checkGuess(guess) {
 // function to display the guess
 function displayGuess(guess) {
   userInput.value = "";
-  guessSlot.innerHTML += `${guess}`;
+  guessSlot.innerHTML += `${guess} , `;
   numberGuess++;
-  remaining.innerHTML = `${10 - numberGuess}`;
+  remaining.innerHTML = `${11 - numberGuess}`;
 }
 // function to display message
-function displayMessage(message) {}
+function displayMessage(message) {
+  lowOrHi.innerHTML = `<h3>${message}</h3>`;
+}
 // function for the end of the game
-function endGame() {}
+function endGame() {
+  userInput.value = "";
+  userInput.setAttribute("disable", "");
+  p.classList.add("button");
+  p.innerHTML = `<h3 id = "newGame" >start new game</h3>`;
+  startOver.appendChild(p);
+  newGame();
+}
 // function to new game
 function newGame() {}
